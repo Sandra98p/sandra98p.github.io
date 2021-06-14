@@ -140,9 +140,9 @@
 
   
 
-
-@media screen and (max-width: 614px) {
 /* <!-- Navigationsleiste --> */
+@media screen and (max-width: 614px) {
+
   nav ul {            
     margin: 0;
     padding: 0;
@@ -334,9 +334,9 @@
 
 
 
-
-@media screen and (max-width: 614px) { 
 /*  <-- Screen1: Above the Fold Bereich -->  */ 
+@media screen and (max-width: 614px) { 
+
 .screen1 {
   margin-top: -145px;
   z-index: 5;
@@ -462,9 +462,9 @@
 
 
 
-
-@media screen and (max-width: 614px) { 
 /*  <--  Screen 2  -->  */
+@media screen and (max-width: 614px) { 
+
 .screen2 {
   margin-top: 0px;
   padding-bottom: 160px;
@@ -628,9 +628,9 @@
 
 
 
-
-@media screen and (max-width: 614px) { 
 /*  <--  Screen 3  -->  */
+@media screen and (max-width: 614px) { 
+
 .screen3 {
   padding-top: 100px;
   padding-bottom: 80px;
@@ -1227,8 +1227,10 @@
     margin-top: 25px;
   }
   
-  .stars-kaeuferschutz {
+  .content img {
     height: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .final-button-warenkorb {
@@ -1408,9 +1410,9 @@
   
   
   
-  
+ /* Trust-Icons*/  
 @media screen and (max-width: 614px) { 
-  /* Trust-Icons*/
+ 
    .screen7 {
     padding-top: 50px;
     padding-bottom: 40px;
@@ -1777,8 +1779,6 @@
   background-color: #000000;
   color: white;
 }
-
-
 
 
 }
