@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="index-style.css"> 
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- CSS für Fade in Screen 2 -->
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        
+        <title>BREW: Barista Kaffeevollautomat</title>
+    </head>
+
+<body>
+    <header>
+        <nav> 
+            <ul class="navigation"> 
+                <li style="float:left" class="navigation-logo"><a href="#home"><img class="header-logo" src="bilder/brew_transparent_Logo.png" alt></a></li>
+                <li class="navigation-txt"><a href="">UNSER KAFFEE</a></li>
+                <li class="navigation-txt"><a href="">KAFFEEMSCHINEN & CO.</a></li>
+                <li class="navigation-txt"><a href="">ACCESSOIRES UND ZUBEHÖR</a></li>
+                <li class="navigation-txt"><a href="">BREW & YOU</a></li>
+                <li class="navigation-txt"><a href="">NACHHALTIGKEIT</a></li>
+                <li class="navigation-txt"><a href="">SERVICE | FAQ</a></li>
+                <li style="float:right" class="navigation-menu"><a href=""><img class="navigation-link-icon" src="icons/menu.png" alt></a></li>
+                <li style="float:right" class="navigation-icon"><a href=""><img class="navigation-link-icon" src="icons/search.png" alt></a></li>
+                <li style="float:right" class="navigation-icon"><a href=""><img class="navigation-link-icon" src="icons/user-login.png" alt></a></li>
+            </ul>  
+        </nav>  
+    </header>
+
+   <!-- Overlay Header Mobile -->
+        <div class="overlay-header sticky-top">
+            <div>
+                <p class="overlay-text"><b>BREW BARISTA</b><br><u>1.029,00€</u></p>
+            </div>
+            <div class="overlay-button"> 
+                <a href="">IN DEN WARENKORB</a>
+            </div>
+        </div>
+        <!-- Fixed Bar up, underneath navigation -->
+        <div class="fixed-bar-up sticky-top">  
+            <div class="options1">
+                <a href=""><p class="fixed-bar-up-text1">DESIGN & HIGHLIGHTS</p></a>
+            </div>
+            <div class="options2">
+                <a href=""><p class="fixed-bar-up-text2">GERÄTE, OPTIONEN, DATEN</p></a>
+            </div>   
+            <div class="options2">    
+                <a href=""><p class="fixed-bar-up-text2">VERGLEICHEN</p></a>
+            </div>
+            <div float="right" class="header2-fixed">
+                <p class="header2-text"><b>BREW BARISTA</b><br><u>1.029,00€</u></p>
+                <div class="header2-button">
+                    <a href="">IN DEN WARENKORB</a> 
+                </div>
+            </div>
+        </div>
+
+        
+     
+    <!-- Fixed Bar down, for mobile version -->
+    <div class="fixed-bar-down sticky-bottom">    
+        <div class="options3">
+            <a href=""><img class="fixed-bar-down-icon" src="icons/star-outline.png" alt></a>
+            <p>Design & Highlights</p>
+        </div>
+        <div class="options4">
+            <a href=""><img class="fixed-bar-down-icon" src="icons/options.png" alt></a>
+            <p>Geräte, Optionen, Daten</p>
+        </div>   
+        <div class="options4">    
+            <a href=""><img class="fixed-bar-down-icon" src="icons/compare.png" alt></a>
+            <p>Vergleichen</p>
+        </div>  
+    </div>
+   
+
+    <!-- Above the Fold Bereich -->
+    <div class="screen1">   
+        <div class="font-screen1">
+            <p class="text-screen1">BREW BARISTA: Kaffeevollautomat mit exklusiven Funktionen, edlem Design & vielen Kaffeespezialitäten</p>
+            <h1 class="heading-screen1">BREW BARISTA.</h1>
+            <a class="CTA-Button1" href="#eigenschaften">ZU DEN EIGENSCHAFTEN</a>
+        </div>
+        <img class="background1-screen1" src="bilder/Kaffeemaschine_Background_side_right.png" alt>
+    </div>
+
+
+    <!-- Maximaler Kaffeegenuss -->
+    <div class="screen2">   
+        <video autoplay loop muted class="video-screen2" src="videos/BREW_Kaffee.mp4"></video>
+        <div data-aos="fade-up" data-aos-duration="3000" class="overlay">
+            <div class="font-screen2 fade-in">
+                <h1 class="heading-screen2">MAXIMALER KAFFEEGENUSS.</h1>
+                <p class="text-screen2">Der BREW BARISTA wurde entwickelt, um perfekte, unbeschwerte Genussmomente zu schaffen, denn Genuss ist eben auch eine Frage der Technik!
+                    Die innovative Technologie, die in diesem Gerät steckt, garantiert ein perfektes Aroma mit jeder Tasse - während die große Auswahl 
+                    an Optionen und Kaffeespezialitäten Ihnen immer genau den Moment verschafft, nach dem Sie sich sehnen.</p>
+                <a class="CTA-Button2" href="#eigenschaften">ZU DEN EIGENSCHAFTEN</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="screen3" id="eigenschaften">   <!-- Ansichten Maschine -->
+        <h1 class="heading-screen3">DEINE MASCHINE. DEIN STYLE.</h1>
+        
+        <div class="container-tabs col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link active" role="tab" data-toggle="tab">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#takeacup" class="nav-link" role="tab" data-toggle="tab">DOUBLE BREW</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="about">
+                    <div class="about-inhalt">
+                        <div>
+                            <h3 class="heading-about"><b>BREW BARISTA</b></h3>
+                            <p class="text-screen3">Die Vollautomat-Ikone unter den Kaffeeautomaten: Dank modernster Technologie zu ultimativen Resultaten. 
+                                Kaffeegenießer werden mit 28 verschiedenen Spezialitäten verwöhnt. Der BREW BARISTA vereint künstliche Intelligenz und durchdachte Konstruktion bis ins kleinste Detail für ein noch nie dagewesenes 5-Sterne-Handling. 
+                                Der Vollautomat beherrscht drei verschiedene Zubereitungsprozesse für Trendspezialitäten und spielt seine Stärke in drei verschiedene Brühverfahren für Kaffee sowie die optimale Erwärmung und Aufschäumung von Milch aus.
+                            </p>
+                        </div>
+                        <div class="about-bild">
+                            <img src="bilder/BREW-BARISTA_Front.png" alt>
+                        </div>
+                    </div>  
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="takeacup">
+                    <div class="takeacup-auswahl">
+                        <div>                     
+                            <h3 class="heading-auswahl"><b>7oz</b></h3>
+                            <p>Die Vollautomat-Ikone unter den Kaffeeautomaten: Dank modernster Technologie zu ultimativen Resultaten. Kaffeegenießer werden mit 28 verschiedenen Spezialitäten verwöhnt. Der BREW BARISTA vereint künstliche 
+                                Intelligenz und durchdachte Konstruktion bis ins kleinste</p>
+                            <video controls muted class="video1-screen3" src="videos/BREW_Kaffee_7oz.mp4"></video>
+                        </div>
+                        <div>
+                            <h3 class="heading-auswahl"><b>14oz</b></h3>
+                            <p>Die Vollautomat-Ikone unter den Kaffeeautomaten: Dank modernster Technologie zu ultimativen Resultaten. Kaffeegenießer werden mit 28 verschiedenen Spezialitäten verwöhnt. Der BREW BARISTA vereint künstliche 
+                                Intelligenz und durchdachte Konstruktion bis ins kleinste</p>
+                            <video controls muted class="video2-screen3" src="videos/BREW_Kaffee_14oz.mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="screen4">   <!-- Produktinformationen -->
+        <h1 class="heading-screen4">HIGHLIGHTS.</h1>
+      
+         <!-- Slider main container -->
+        <div class="swiper-container slider1 swiper-init demo-swiper demo-swiper-auto">
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides: single slide element-->
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight1.png" alt>
+                        <h2 class="highlight-ueberschrift">BREW CONNECT APP</h2>
+                        <p class="highlight-text">Mit der BREW Connect App steuern Sie viele Funktionen mit Ihrem Smartphone. Das besondere Highlight: Mit dieser App 
+                            können Sie Ihre eigenen Kaffeespezialitäten selbst kreieren. Die App zeigt Ihnen passende Tutorials zum Reinigen und Entkalken des Geräts.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight2.png" alt>
+                        <h2 class="highlight-ueberschrift">28 KAFFEESPEZIALITÄTEN</h2>
+                        <p class="highlight-text">Ihr Kaffeevollautomat erfüllt Ihnen viele Kaffeewünsche. Die vier Klassiker Espresso, Café Crème, 
+                            Cappuccino und Latte Macchiato wählen Sie direkt mit einer einzigen leichten Berührung. Über das Menü greifen Sie auf weitere 24 Kaffeevariationen zu.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight3.png" alt>
+                        <h2 class="highlight-ueberschrift">MEMORY FUNKTION FÜR KAFFEEVORLIEBEN</h2>
+                        <p class="highlight-text">Ein selbstlernender Algorithmus erkennt die persönlichen Genusspräferenzen und adaptiert den Startscreen entsprechend. 
+                            So erscheinen dort die 2, 5 oder 8 bevorzugten Spezialitäten.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight4.png" alt>
+                        <h2 class="highlight-ueberschrift">2 TASSEN MIT EINEM MAL</h2>
+                        <p class="highlight-text">Aus einem der härtesten Werkstoffe mit höchster Präzision gefertigt, garantieren 2 elektronisch verstellbare Keramikscheibenmahlwerke die ideale 
+                            Feinheit des Kaffees. Die beiden selbstjustierenden Mahlwerke erlauben die Verwendung von zwei verschiedenen Kaffeesorten, einzeln oder als Mischung.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight5.png" alt>
+                        <h2 class="highlight-ueberschrift">5-STERNE-HANDLING</h2>
+                        <p class="highlight-text">Die spülmaschinentaugliche Restwasserschale lässt sich mit nur einer Hand entnehmen, leeren und wieder einsetzen. Dabei verhindert der optimal gelegte 
+                            Schwerpunkt ein Überschwappen. Einfach, sauber, schnell, bequem – der 5-Sterne-Gedanke reicht bis ins kleinste Detail.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="Bilder/Highlight6.png" alt>
+                        <h2 class="highlight-ueberschrift">INNENLEBEN MIT GEBALLTER POWER</h2>
+                        <p class="highlight-text">Ein komplett neues Innenleben mit der geballten Power von 2 Heizsystemen und 2 Pumpen erlaubt die parallele Zubereitung von Kaffee und Milch bzw. 
+                            Milchschaum. Somit erschließen sich Kaffeeliebhabernsogar angesagte Mischgetränke wie Milchkaffee, Flat White oder Cortado.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="Icons/next-right.png"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-container slider2 swiper-init demo-swiper demo-swiper-auto">
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides: single slide element-->
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight1.png" alt>
+                        <h2 class="highlight-ueberschrift">BREW CONNECT APP</h2>
+                        <p class="highlight-text">Mit der BREW Connect App steuern Sie viele Funktionen mit Ihrem Smartphone. Das besondere Highlight: Mit dieser App 
+                            können Sie Ihre eigenen Kaffeespezialitäten selbst kreieren. Die App zeigt Ihnen passende Tutorials zum Reinigen und Entkalken des Geräts.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight2.png" alt>
+                        <h2 class="highlight-ueberschrift">28 KAFFEESPEZIALITÄTEN</h2>
+                        <p class="highlight-text">Ihr Kaffeevollautomat erfüllt Ihnen viele Kaffeewünsche. Die vier Klassiker Espresso, Café Crème, 
+                            Cappuccino und Latte Macchiato wählen Sie direkt mit einer einzigen leichten Berührung. Über das Menü greifen Sie auf weitere 24 Kaffeevariationen zu.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight3.png" alt>
+                        <h2 class="highlight-ueberschrift">MEMORY FUNKTION FÜR KAFFEEVORLIEBEN</h2>
+                        <p class="highlight-text">Ein selbstlernender Algorithmus erkennt die persönlichen Genusspräferenzen und adaptiert den Startscreen entsprechend. 
+                            So erscheinen dort die 2, 5 oder 8 bevorzugten Spezialitäten.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight4.png" alt>
+                        <h2 class="highlight-ueberschrift">2 TASSEN MIT EINEM MAL</h2>
+                        <p class="highlight-text">Aus einem der härtesten Werkstoffe mit höchster Präzision gefertigt, garantieren 2 elektronisch verstellbare Keramikscheibenmahlwerke die ideale 
+                            Feinheit des Kaffees. Die beiden selbstjustierenden Mahlwerke erlauben die Verwendung von zwei verschiedenen Kaffeesorten, einzeln oder als Mischung.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight5.png" alt>
+                        <h2 class="highlight-ueberschrift">5-STERNE-HANDLING</h2>
+                        <p class="highlight-text">Die spülmaschinentaugliche Restwasserschale lässt sich mit nur einer Hand entnehmen, leeren und wieder einsetzen. Dabei verhindert der optimal gelegte 
+                            Schwerpunkt ein Überschwappen. Einfach, sauber, schnell, bequem – der 5-Sterne-Gedanke reicht bis ins kleinste Detail.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="highlight">
+                        <img class="picture-highlight" src="bilder/Highlight6.png" alt>
+                        <h2 class="highlight-ueberschrift">INNENLEBEN MIT GEBALLTER POWER</h2>
+                        <p class="highlight-text">Ein komplett neues Innenleben mit der geballten Power von 2 Heizsystemen und 2 Pumpen erlaubt die parallele Zubereitung von Kaffee und Milch bzw. 
+                            Milchschaum. Somit erschließen sich Kaffeeliebhabernsogar angesagte Mischgetränke wie Milchkaffee, Flat White oder Cortado.</p>
+                        <p class="highlight-more">WEITERLESEN&nbsp;&nbsp;<img class="arrow-more" src="icons/next-right.png"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen5">   <!-- Bilderreihe -->
+        <h1 class="heading-screen5">EINZIGARTIG. MIT CHARAKTER.</h1>
+        <div class="bilderuebersicht">
+            <div class="bilder-spalte-links">
+                <img class="bild1" src="bilder/bild1.png" alt>
+                <img class="bild3" src="bilder/bild3.png" alt>
+                <img class="bild5" src="bilder/bild5.png" alt>
+            </div>
+            <div class="bilder-spalte-rechts">
+                <img class="bild2" src="bilder/bild2.png" alt>
+                <img class="bild4" src="bilder/bild4.png" alt>
+                <img class="bild6" src="bilder/bild6.png" alt>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="screen7">   <!-- Trust Icons, Kaufen-Button, Social Media -->
+        <h1 class="heading-screen7">VON UNS. FÜR DICH.</h1>
+        <div class="container-trust">
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/experten-beratung.png">
+                </div>
+                <div class="content">
+                    <h3>Experten-Beratung</h3>
+                    <p>Lassen Sie sich von unseren Experten telefonisch oder per Mail beraten. Gemeinsam finden wir Ihren Kaffeevollautomat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/reparatur-service.png">
+                </div>
+                <div class="content">
+                    <h3>Reparatur-Service</h3>
+                    <p>Wir kümmern uns um die kostengünstige Reparatur Ihrer Kaffeemaschine oder übernehmen die regelmäßige Wartung Ihres Gerätes. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/montage-service.png">
+                </div>
+                <div class="content">
+                    <h3>Montage-Service</h3>
+                    <p>Benötigen Sie Hilfe bei der Installation des Kaffeevollautomat? Wir helfen Ihnen gerne und übernehmen dies.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/credit-card.png">
+                </div>
+                <div class="content">
+                    <h3>Sicheres Bezahlen</h3>
+                    <p>Sie können bei uns einfach und sicher per EC-Karte, Lastschrift, Mastercard, PayPal oder Vorkasse bezahlen.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/kostenlose-lieferung.png">
+                </div>
+                <div class="content">
+                    <h3>Kostenlose Lieferung</h3>
+                    <p>Die Lieferung erfolgt kostenfrei per DHL innerhalb von Deutschland binnen 1-3 Werktagen.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="icons/trusted-shops.png">
+                </div>
+                <div class="content">
+                    <h3>Käuferschutz inklusive</h3>
+                    <hr class="line-kaeuferschutz">
+                    <img class="stars-kaeuferschutz" src="icons/stars_Kaeuferschutz.svg" alt>
+                    <p>Sehr gut<br><b>4.85</b>/5.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uebersicht-kaufentscheidung">
+            <div class="overlay-container">
+                <img  src="bilder/BREW-BARISTA_Front.png" alt="barista-automat" class="image">
+                <div class="overlay-text-container">
+                    <div class="overlay-text">BREW BARISTA</div>   
+                </div>   
+            </div>
+            <div class="uebersicht-txt">                
+                <p class="p2">BREW BARISTA</p>
+                <p class="p2">1.029,00€</p>
+                <div class="punkt">
+                    <div class="punkt-gruen"></div>
+                    <p class="p2">Lieferbar</p>
+                </div>
+
+                <div class="pu-desktop">
+                    <div id="pop-up-desktop" onclick="aus()">
+                        
+                        <div class="gratis-geschenk">
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/latte-macchiato-glas.jpg" alt>
+                                <p>Latte-Macchiato Gläser</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item"> 
+                                <img src="bilder/geschenk/tassenwärmer.jpg" alt>
+                                <p>Tassenwärmer</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/probe-kaffee.jpg" alt>
+                                <p>Kaffee-Pakete</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                       
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/milchbehaelter.jpg" alt>
+                                <p>Milchbehälter</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/thermobecher.jpg" alt>
+                                <p>Milchbehälter</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="pop-up-heading">
+                        <p onclick="an()">
+                            <img src="icons/gift.png" alt>Sichern Sie sich zwei Gratis-Geschenke zum Kauf.</p>
+                    </div>
+                </div>
+                    
+                <div class="pu-mobile">
+                    <div id="pop-up-mobile" onclick="off()">
+                        <div class="gratis-geschenk">
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/latte-macchiato-glas.jpg" alt>
+                                <p>Latte-Macchiato Gläser</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item"> 
+                                <img src="bilder/geschenk/tassenwärmer.jpg" alt>
+                                <p>Tassenwärmer</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/probe-kaffee.jpg" alt>
+                                <p>Kaffee-Pakete</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="gratis-geschenk">
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/milchbehaelter.jpg" alt>
+                                <p>Milchbehälter</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="geschenk-item">
+                                <img src="bilder/geschenk/thermobecher.jpg" alt>
+                                <p>Milchbehälter</p>
+                                <label class="container-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="pop-up-heading">
+                        <p onclick="on()">
+                            <img src="icons/gift.png" alt>Sichern Sie sich zwei Gratis-Geschenke zum Kauf.</p>
+                    </div>
+                </div>
+                   
+                    
+            
+                <div class="final-button-warenkorb">
+                    <a class="CTA-Button4 pulse" href="">IN DEN WARENKORB</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="screen6">   <!-- Bewertungen -->
+        <h1 class="heading-screen6">BEWERTUNGEN.</h1>
+
+        <div class="bewertungen">
+            <div data-aos="fade-right" class="bewertung-kasten">
+                <img float="left" class="bewertung-bild" src="bilder/bewertung/Profilbild_Klaus.jpg">
+                <div class="bewertung-kasten-inhalt">
+                    <p class="bewertung-name">KLAUS MÜLLER</p>
+                    <img class="bewertung-stars" src="bilder/bewertung/bewertung-sterne.png">
+                    <p class="bewertung-text">Ich bin begeistert. Der BREW BARISTA funktioniert einwandfrei und auch die Steuerung per App ist ein Klasse Extra!</p>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="bewertung-kasten">
+                <img float="left" class="bewertung-bild" src="bilder/bewertung/Profilbild_Katrin.jpg">
+                <div class="bewertung-kasten-inhalt">
+                    <p class="bewertung-name">KATRIN PHILLER</p>
+                    <img class="bewertung-stars" src="bilder/bewertung/bewertung-stars-half.png">
+                    <p class="bewertung-text">Die Maschine ist nun seit längerer Zeit im Einsatz und funktioniert einwandfrei. Sie ist pflegeleicht und einfach zu bedienen. Die App-Steuerung ist ein nettes Extra.</p>
+                </div>
+            </div>
+            <div data-aos="fade-right" class="bewertung-kasten">
+                <img float="left" class="bewertung-bild" src="bilder/bewertung/Profilbild_Silke.jpg">
+                <div class="bewertung-kasten-inhalt">
+                    <p class="bewertung-name">SILKE SCHMIDT</p>
+                    <img class="bewertung-stars" src="bilder/bewertung/bewertung-sterne.png">
+                    <p class="bewertung-text">Der Kaffeevollautomat ist seinen Preis definitiv wert. Leider gab es ein Problem mit dem Milchaufschäumer, die Reparatur erfolgte jedoch schnell und unkompliziert.</p>
+                </div>
+            </div>
+        </div>    
+            <div class="weitere-bewertungen">
+                <h2 class="heading2-screen6">BREW BARISTA<br>BEWERTUNGEN.</h2>
+                <div class="container-button">
+                    <div class="raise">WEITERE BEWERTUNGEN</div>
+                </div>
+            </div>
+              
+          
+    </div>
+
+
+    <footer>
+    <div class="social-media">
+        <p class="social-media-text"><b>Follow us on</b></p>
+        <div class="media">
+            <ul class="icon-SoMe">
+                <li><i class="fa fa-facebook"></i></li>
+                <li><img class="instagram" src="Icons/instagram-brands.svg"></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="imp-dat">
+        <p>Datenschutz</p>
+        <p>Impressum</p>
+    </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- benötigt für Tabs (Screen 3)-->
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> <!-- benötigt für Tabs (Screen 3)-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="javascript.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    <script>
+        var slider1 = new Swiper(".slider1", {
+            slidesPerView: 2.75,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+        });
+
+        var slider2 = new Swiper(".slider2", {
+            slidesPerView: 1.5,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+        });
+
+    </script>
+
+</body>
+</html>
