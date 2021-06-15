@@ -819,7 +819,7 @@
 
 @media screen and (min-width: 840px) { 
   .highlight {
-    height: 380px;
+    height: 390px;
     width: 240px;
     background-color: #E9E9E9;
     text-align: left;
@@ -854,8 +854,8 @@
 
 @media screen and (min-width: 1044px) { 
   .highlight {
-    height: 340px;
-    width: 295px;
+    height: 370px;
+    width: 300px;
     background-color: #E9E9E9;
     text-align: left;
   }
