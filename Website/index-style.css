@@ -235,7 +235,7 @@
     display: inline-block;
     padding: 10px;
     width: 100%; 
-    position: fixed;
+    position: sticky;
     margin-top: -25px; 
     height: 65px;
     z-index: 3;
@@ -756,7 +756,7 @@
   .demo-swiper {
     color: rgb(0, 0, 0);
     display: flex;
-    height: 480px;
+    height: 500px;
     margin: 0px;
     width: 80%;
   }
@@ -865,7 +865,7 @@
   }
 
   .demo-swiper {
-    height: 430px;
+    height: 480px;
   }
 
 }
