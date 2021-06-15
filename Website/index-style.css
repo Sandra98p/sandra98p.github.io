@@ -896,14 +896,14 @@
   .demo-swiper {
     color: rgb(0, 0, 0);
     display: flex;
-    height: 470px;
+    height: 490px;
     margin-top: -220px;
     width: 60%;
     background-color: none;
   }
 
   .highlight {
-    height: 440px;
+    height: 450px;
     width: 195px;
     padding-right: 20px;
     background-color: #E9E9E9;
