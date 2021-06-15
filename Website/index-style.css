@@ -152,11 +152,11 @@
   }
     
   .navigation-logo {
-    padding: 0px 0px 0px 10px;
+    padding: 5px 0px 0px 10px;
   }
 
   .header-logo {
-    width: 65px;
+    width: 95px;
     background-color: white;
   }
 
@@ -170,14 +170,14 @@
   }
 
   .navigation-menu {
-    width: 12px;
+    width: 15px;
     margin-top: 0px;
     padding-right: 20px;
   }
 
   .navigation-link-icon {
-    width: 12px;
-    margin-top: -155px;
+    width: 20px;
+    margin-top: -130px;
     margin-right: 20px;
   }
 
@@ -196,7 +196,7 @@
     display: inline-grid;
     position: fixed;
     bottom: 0;
-    
+    z-index: 5;
   }
 
   .options3 {
@@ -209,7 +209,7 @@
   }
 
   .fixed-bar-down p {
-    font-size: 10px;
+    font-size: 11px;
     padding-top: 5px;
   }
 
@@ -231,22 +231,24 @@
 
 /* Overlay Header Mobile */
 .overlay-header {                         
-    background: white;
+    background: rgb(255, 255, 255);
     display: inline-block;
     padding: 10px;
     width: 100%; 
     position: sticky;
-    margin-top: 0px; 
+    margin-top: -25px; 
+    height: 65px;
+    z-index: 5;
   }
 
   .overlay-header p {   
     color: black;
-    font-size: 12px;
+    font-size: 15px;
 
   }
 
   .overlay-button {
-    margin-top: auto;
+    margin-top: -55px;
     margin-bottom: auto;
   }
 
@@ -256,7 +258,7 @@
     padding: 10px 20px;
     text-decoration: none;
     float: right;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .overlay-button:hover {
@@ -287,19 +289,21 @@
 @media screen and (min-width: 615px) { 
 
   .screen1 {
-    margin-top: -1720px;
+    margin-top: -1755px;   
+    background: url("bilder/Kaffeemaschine_side_right_probe.png") no-repeat center;
+    background-size: cover;
+    padding-bottom: 550px;
   }
 
-  .background1-screen1 {
-    width: 100%;
-    margin-top: -185px;
+  .background2 {
+    visibility: hidden;
   }
 
   .font-screen1 {
     position: relative;
     color: black;
     margin-left: 40px;
-    padding-top: 50px;
+    padding-top: 80px;
     width: 65%;
   }
 
@@ -338,23 +342,25 @@
 @media screen and (max-width: 614px) { 
 
 .screen1 {
-  margin-top: -145px;
-  z-index: 5;
+  margin-top: -270px;
+  background: url("bilder/Kaffeemaschine_mobile_small.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 550px;
 }
 
-.background1-screen1 {
-  width: 100%;
-  margin-top: -200px;
+.background1 {
+  visibility: hidden;
 }
 
 .font-screen1 {
   position: relative;
   color: black;
   margin-left: 20px;
+  padding-top: 75px;
 }
 
 .text-screen1 {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .heading-screen1 {
@@ -365,7 +371,7 @@
 }
 
 .CTA-Button1 {
-  font-size: 12px;
+  font-size: 15px;
   padding: 10px;
   border: 1px solid black;
   background: transparent;
@@ -414,17 +420,17 @@
     background: black;
   }
 
-  .video-screen2 {
+  .video1-screen2 {
     width: 100%;
     margin-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
 
   .font-screen2 {
     position: absolute;
     color: white;
     padding: 50px 100px;
-    margin-top: -200px;
+    margin-top: -250px;
     text-align: center;
     background: linear-gradient(0,rgb(0, 0, 0) 0,rgb(0, 0, 0) 80%,rgba(0,0,0,0) 100%);
     height: 400px;
@@ -469,11 +475,13 @@
   margin-top: 0px;
   padding-bottom: 160px;
   background: black;
+
 }
 
-.video-screen2 {
+.video1-screen2 {
   width: 100%;
   margin-top: 0px;
+  padding-bottom: 0px;
 }
 
 .font-screen2 {
@@ -644,11 +652,11 @@
 }
 
 .heading-about {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .about-inhalt p{
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .container-tabs {
@@ -670,7 +678,7 @@
 
 .nav-tabs a {
   color: #e1e1e1;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .nav-tabs a:hover {
@@ -693,11 +701,11 @@
 }
 
 .takeacup-auswahl p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .heading-auswahl {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .video1-screen3, .video2-screen3 {
@@ -1013,7 +1021,7 @@
 
 
 
-/*  <--  Screen 5  -->  */
+/*  <--  Screen 5: Bildübersicht  -->  */
 @media screen and (min-width: 615px) { 
   .screen5 {
     padding-top: 50px;
@@ -1172,7 +1180,7 @@
   }
   
   .card {
-    height: 95px;
+    height: 100px;
     width: auto;
     background: #f1f1f1;
     margin: 0 10px;
@@ -1203,7 +1211,7 @@
   
   .content h3 {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -1212,7 +1220,7 @@
   
   .content p {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     padding-bottom: 10px;
@@ -1220,7 +1228,7 @@
   }
   
   .line-kaeuferschutz {
-    border-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.877);
     width: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -1229,10 +1237,9 @@
   
   .content img {
     height: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 24%;
   }
-  
+
   .final-button-warenkorb {
     padding-top: 0px;
     padding-bottom: 50px;
@@ -1432,7 +1439,7 @@
     margin-right: auto;
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
     align-items: center;
   }
@@ -1469,7 +1476,7 @@
   
   .content h3 {
     color: rgb(0, 0, 0);
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -1478,7 +1485,7 @@
   
   .content p {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     padding-bottom: 10px;
@@ -1498,7 +1505,7 @@
   }
   
   .CTA-Button4 {
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px 20px;
     background-color: black;
     text-decoration: none;
@@ -1532,6 +1539,8 @@
   .overlay-container {
     position: relative;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .image {
@@ -1540,39 +1549,24 @@
   }
   
   .overlay-text-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 80%;
-    opacity: 1;
-    background-color: #000000af;
+    visibility: hidden;
   }
-  
-  .overlay-text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+
 
   .uebersicht-txt {
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
   }
 
+  .uebersicht-txt p {
+    font-size: 18px;
+  }
+
   .punkt {
-    display: flex;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .punkt p {
@@ -1585,6 +1579,7 @@
     height: 10px;
     border-radius: 50%;
     margin-top: 0px;
+    margin-left: 38%;
   }
 
 
@@ -1648,10 +1643,13 @@
   }
 
   .pop-up-heading p {
-    font-size: 15px;
+    font-size: 18px;
     cursor: pointer;
-    margin-top: -20px;
+    margin-top: -30px;
     text-decoration: dotted underline;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .pop-up-heading img {
@@ -1721,7 +1719,7 @@
 }
 
 .bewertung-kasten-inhalt {
-  font-size: 10px;
+  font-size: 12px;
   padding: 10px;
 }
 
@@ -1741,7 +1739,7 @@
 }
 
 .bewertung-text {
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 15px;
 }
 
@@ -1751,7 +1749,7 @@
 }
 
 .heading2-screen6 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1761,7 +1759,7 @@
   background: none;
   border: 2px solid #000000;
   padding: 1em 2em;
-  width: 300px;
+  width: 350px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1771,6 +1769,7 @@
   text-align: center;
   transition: 0.25s;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .container-button:hover {
@@ -1831,7 +1830,7 @@
   
   .bewertung-name {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .bewertung-stars {
@@ -1839,7 +1838,7 @@
   }
 
   .bewertung-text {
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 15px;
   }
   
@@ -1855,7 +1854,6 @@
   }
   
   .CTA-Button3 {
-    font-size: 15px;
     padding: 10px 20px;
     background-color: black;
     text-decoration: none;
@@ -1867,7 +1865,7 @@
   }
   
   .heading2-screen6 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1887,6 +1885,7 @@
     text-align: center;
     transition: 0.25s;
     cursor: pointer;
+    font-size: 18px;
   }
   
   .container-button:hover {
@@ -1925,7 +1924,7 @@
 @media screen and (min-width: 615px) {
   .social-media-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
   }
 
@@ -1980,8 +1979,14 @@
   }
 
   .imp-dat {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 80px;
+    
+  }
+
+  .imp-dat a {
+    color: rgb(156, 113, 33);
+    text-decoration: underline;
   }
  
 
@@ -1990,7 +1995,7 @@
     text-align: center;
     padding-top: 10px;
     background-color: black;
-    height: 250px;
+    height: 300px;
   }
 
 }
@@ -1999,7 +2004,7 @@
 @media screen and (max-width: 614px) { 
   .social-media-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
   }
 
@@ -2019,7 +2024,7 @@
     box-shadow: 2px 3px 10px #686868, -2px -2px 10px rgb(161, 161, 161);
     text-align: center;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(8, 8, 8);
     cursor: pointer;
     transition: 0.5s;
@@ -2055,17 +2060,23 @@
   }
 
   .imp-dat {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 50px;
     padding-bottom: 60px;
   }
+
+  .imp-dat a {
+    color: rgb(156, 113, 33);
+    text-decoration: underline;
+  }
+ 
 
   footer {
     color: white;
     text-align: center;
     padding-top: 10px;
     background-color: black;
-    height: 240px;
+    height: 270px;
     font-size: 12px;
   }
 
