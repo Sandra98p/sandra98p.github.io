@@ -737,7 +737,7 @@
 @media screen and (min-width: 615px) {  
   .screen4 {
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     text-align: center;
   }
 
@@ -755,14 +755,14 @@
   .demo-swiper {
     color: rgb(0, 0, 0);
     display: flex;
-    height: 450px;
+    height: 480px;
     margin: 0px;
     width: 80%;
   }
 
   .highlight {
     height: 340px;
-    width: 175px;
+    width: 185px;
     background-color: #E9E9E9;
     text-align: left;
   }
@@ -777,7 +777,7 @@
   }
 
   .picture-highlight {
-    width: 175px;
+    width: 185px;
   }
 
   .slider2 {
@@ -785,7 +785,7 @@
   }
 
   .demo-swiper {
-    height: 385px;
+    height: 410px;
   }
 
   .highlight-ueberschrift {
@@ -809,6 +809,12 @@
     height: 10px;
   }
 
+  .swiper-button-prev, .swiper-button-next {
+    padding-top: 200px;
+  }
+
+  
+
 }
 
 @media screen and (min-width: 840px) { 
@@ -830,6 +836,8 @@
     margin: 0px;
     width: 80%;
   }
+
+ 
 
 }
 
@@ -858,6 +866,7 @@
     padding-top: 40px;
     padding-bottom: 100px;
     text-align: center;
+    background-color: rgb(156, 113, 33);
   }
 
   .heading-screen4 { /**/
@@ -877,30 +886,30 @@
   .demo-swiper {
     color: rgb(0, 0, 0);
     display: flex;
-    height: 460px;
+    height: 470px;
     margin-top: -220px;
     width: 60%;
     background-color: none;
   }
 
   .highlight {
-    height: 400px;
-    width: 145px;
+    height: 430px;
+    width: 195px;
     padding-right: 20px;
     background-color: #E9E9E9;
     text-align: left;
   }
 
   .highlight h2 {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .highlight p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .picture-highlight {
-    width: 145px;
+    width: 195px;
   }
 
   .highlight-ueberschrift {
@@ -916,7 +925,7 @@
   }
 
   .highlight-more {
-    font-size: 12px;
+    font-size: 15px;
     padding: 0px 10px;
   }
 
@@ -973,7 +982,7 @@
   }
 
   .highlight p {
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
   }
 

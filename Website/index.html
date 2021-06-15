@@ -158,8 +158,7 @@
         <h1 class="heading-screen4">HIGHLIGHTS.</h1>
       
          <!-- Slider main container -->
-        <div class="swiper-container slider1 swiper-init demo-swiper demo-swiper-auto">
-            <div class="swiper-pagination"></div>
+        <div id="demo" class="swiper-container slider1 swiper-init demo-swiper demo-swiper-auto">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides: single slide element-->
@@ -218,6 +217,9 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev" style="color: rgb(141, 141, 141);"></div>
+            <div class="swiper-button-next" style="color: rgb(141, 141, 141);"></div>
         </div>
 
         <div class="swiper-container slider2 swiper-init demo-swiper demo-swiper-auto">
@@ -563,26 +565,6 @@
         AOS.init();
     </script>
     
-    <script>
-        var slider1 = new Swiper(".slider1", {
-            slidesPerView: 2.75,
-            spaceBetween: 0,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true
-            },
-        });
-
-        var slider2 = new Swiper(".slider2", {
-            slidesPerView: 1.5,
-            spaceBetween: 0,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true
-            },
-        });
-
-    </script>
 
 </body>
 </html>
