@@ -757,7 +757,7 @@
     color: rgb(0, 0, 0);
     display: flex;
     height: 500px;
-    margin: 0px;
+    margin-top: 500px;
     width: 80%;
   }
 
@@ -811,6 +811,7 @@
 
   .swiper-button-prev, .swiper-button-next {
     padding-top: 200px;
+    margin-top: 200px;
   }
 
 
